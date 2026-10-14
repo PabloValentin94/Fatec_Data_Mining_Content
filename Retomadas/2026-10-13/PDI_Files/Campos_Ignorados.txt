@@ -1,0 +1,12 @@
+Emitentes:
+
+  - cPais.
+
+Itens:
+
+  - cBenef;
+  - cEnq;
+  - CST;
+  - vBC;
+  - pIPI;
+  - vIPI.
