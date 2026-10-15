@@ -679,6 +679,21 @@
         <repeat>N</repeat>
       </field>
       <field>
+        <name>cPais</name>
+        <xpath>*[name()='enderEmit']/*[name()='cPais']</xpath>
+        <element_type>node</element_type>
+        <result_type>valueof</result_type>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
         <name>xPais</name>
         <xpath>*[name()='enderEmit']/*[name()='xPais']</xpath>
         <element_type>node</element_type>
@@ -949,6 +964,16 @@
       </mongo_field>
       <mongo_field>
         <incoming_field_name>CEP</incoming_field_name>
+        <mongo_doc_path/>
+        <use_incoming_field_name_as_mongo_field_name>Y</use_incoming_field_name_as_mongo_field_name>
+        <update_match_field>N</update_match_field>
+        <modifier_update_operation>N/A</modifier_update_operation>
+        <modifier_policy/>
+        <json_field>N</json_field>
+        <allow_null>N</allow_null>
+      </mongo_field>
+      <mongo_field>
+        <incoming_field_name>cPais</incoming_field_name>
         <mongo_doc_path/>
         <use_incoming_field_name_as_mongo_field_name>Y</use_incoming_field_name_as_mongo_field_name>
         <update_match_field>N</update_match_field>

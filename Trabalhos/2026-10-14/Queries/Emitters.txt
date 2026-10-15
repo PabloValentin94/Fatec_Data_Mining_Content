@@ -1,0 +1,7 @@
+db.emitters.find({ CNPJ: '00028986006904' })
+
+db.emitters.countDocuments({});
+
+// cPais:
+
+db.emitters.countDocuments({ cPais: { $exists: true } });

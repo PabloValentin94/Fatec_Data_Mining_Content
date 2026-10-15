@@ -1,0 +1,5 @@
+db.emitters.countDocuments({});
+
+// cPais:
+
+db.emitters.countDocuments({ cPais: { $exists: true } });

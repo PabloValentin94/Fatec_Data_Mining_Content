@@ -1,0 +1,27 @@
+db.items.find({ cProd: '/ W711784/S3/00' })
+
+db.items.countDocuments({})
+
+// cBenef:
+
+db.items.countDocuments({ cBenef: { $exists: true } })
+
+// cEnq:
+
+db.items.countDocuments({ cEnq: { $exists: true } })
+
+// CST:
+
+db.items.countDocuments({ CST: { $exists: true } })
+
+// vBC:
+
+db.items.countDocuments({ vBC: { $exists: true } })
+
+// pIPI:
+
+db.items.countDocuments({ pIPI: { $exists: true } })
+
+// vIPI:
+
+db.items.countDocuments({ vIPI: { $exists: true } })
